@@ -2,10 +2,6 @@
 
 Docker is a very powerful tool for developing applications that run in the cloud. If you want to get the most out of it, you need to make sure that the way you're running your code locally matches as closely as possible with how it runs in the cloud.
 
-Today I'm going to show you how to do this, using a simple API server in Python as an example.
-
-Video: https://youtu.be/zkMRWDQV4Tg.
-
 ## Usage
 
 As a first step, install Docker (see: https://www.docker.com) and install the requirements:
@@ -23,8 +19,8 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 Build and run the Docker image locally, as follows:
 
 ```
-docker build -t channel-api .
-docker run -d -p 8080:80 channel-api
+docker build -t students-api .
+docker run -d -p 8080:80 students-api
 ```
 
 In order to run the example server with docker compose, use this:

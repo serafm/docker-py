@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "George Carter",
+        "age": 23,
+        "semester": 6
+    },
+    {
+        "id": 2,
+        "name": "Michael Banks",
+        "age": 20,
+        "semester": 3
+    },
+    {
+        "id": 3,
+        "name": "Emma Sky",
+        "age": 19,
+        "semester": 2
+    },
+    {
+        "id": 4,
+        "name": "Luke Franklin",
+        "age": 28,
+        "semester": 10
+    }
+]
